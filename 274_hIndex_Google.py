@@ -34,3 +34,8 @@ class Solution:
             if N-i <= v:
                 return N-i
         return 0
+
+       
+# another example
+
+return sum(i < j for i, j in enumerate(sorted(citations, reverse=True)))
